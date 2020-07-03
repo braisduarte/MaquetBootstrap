@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    border-style: none;
+}
+
+/* TIPOGRAFIAS */
+
+h1 {
+    color: #2b4b80;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #2b4b80;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #2b4b80;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h4 {
+    color: #2b4b80;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+h5 {
+    color: #2b4b80;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    color: #808a9b;
+}
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAV */
+
+.navbar {
+    background-color: transparent !important;
+
+}
+
+nav.navbar div#menu a {
+    color: #2b4b80 !important;
+    padding: 5px 10px;
+    margin: 0px 20px;
+}
+
+nav.navbar div#menu a:last-child {
+    background: #4043bc;
+    color: #fff !important;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin-left: 100px;
+
+}
+
+/* FIN NAV */
+
+/* BANNER */
+section#banner {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/fondo0.png) no-repeat center center / cover;
+    position: relative;
+}
+
+section#banner div:first-child {
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+section#banner div:nth-child(2) img {
+    margin-top: 80px;
+}
+
+section#banner p {
+    padding: 20px 300px 20px 0px;
+}
+
+
+section#banner img.plus1 {
+    position: absolute;
+    left: 400px;
+    bottom: 400px;
+}
+
+section#banner img.plus2 {
+    position: absolute;
+    left: 250px;
+    bottom: 0px;
+}
+
+/* FIN BANNER */
+/* SERVICIOS */
+section#servicios {
+    min-height: 700px;
+    background: url(../img/fondo5.png) no-repeat left top, url(../img/fondo6.png) no-repeat right;
+    text-align: center;
+    margin-top: 150px;
+}
+
+section#servicios img {
+    width: 50px;
+}
+
+section#servicios article {
+    margin-top: 100px;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+section#servicios article:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+section#servicios h3,
+a {
+    margin: 20px 0px;
+}
+
+section#servicios a,
+a span {
+    color: #c5ccd8;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+section#servicios a span {
+    padding-right: 5px;
+}
+
+section#servicios a:hover,
+a span:hover {
+    color: #7b40c0;
+}
+
+/* FIN SERVICIOS */
+
+/* ORDENADOR */
+section#ordenador {
+    min-height: 700px;
+    background: url(../img/fondo4.png) no-repeat left / contain, url(../img/fondo3.png) no-repeat right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#ordenador div.row div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#ordenador div.row div:nth-child(2) {
+    padding-right: 400px;
+    margin: auto;
+}
+
+section#ordenador div.row div:nth-child(2) p {
+    margin-top: 20px;
+}
+
+/* FIN ORDENADOR */
+/* SERVICIOS2 */
+section#servicios2 {
+    min-height: 700px;
+}
+
+section#servicios2 h2 {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+section#servicios2 div.row {
+    display: flex;
+    justify-content: center;
+}
+
+section#servicios2 article {
+    padding: 40px 20px;
+    border: solid 1px #c5ccd8;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+section#servicios2 article span {
+    margin-right: 20px;
+}
+
+section#servicios2 article p {
+    margin-left: 70px;
+}
+
+/* FIN SERVICIOS2 */
+/* PLAN */
+section#plan {
+    min-height: 700px;
+    background: url(../img/fondo1.png) no-repeat right / contain;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+section#plan article {
+    margin-top: 100px;
+    padding: 50px 0px;
+    border: solid 1px #c5ccd8;
+    border-radius: 10px;
+    background: #fff
+}
+
+
+section#plan h3,
+a {
+    margin: 20px 0px;
+}
+
+section#plan a {
+    color: #c5ccd8;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+section#plan article:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+section#plan a:hover {
+    color: #7b40c0;
+}
+
+section#plan img.plus3 {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+
+}
+
+/* FIN PLAN */
+/* PROYECTOS */
+section#proyectos {
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#proyectos div.row h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+section#proyectos img {
+    width: 350px;
+}
+
+section#proyectos article {
+    position: relative;
+}
+
+section#proyectos div.row article div {
+    background: #fff;
+    padding: 10px 125px 20px 10px;
+    border-radius: 0px 10px 0px 0px;
+    position: absolute;
+    bottom: 0;
+}
+
+section#proyectos div.row article h3 {
+    padding: 5px 0px 0px 10px;
+}
+
+section#proyectos div.row article p {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+/* FIN PROYECTOS */
+/* CLIENTES */
+section#clientes {
+    min-height: 400px;
+}
+
+section#clientes div.comentario h2,
+div.comentario p {
+    text-align: center;
+}
+
+section#clientes div.comentario h2 {
+    margin-bottom: 50px;
+}
+
+section#clientes div.row div:first-child p {
+    font-style: italic;
+    padding: 20px 300px;
+}
+
+section#clientes div.row div.perfil {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#clientes div.row div.perfil div:nth-child(2) {
+    margin-left: 10px;
+}
+
+/* FIN CLIENTES */
+/* BLOG */
+section#blog {
+    min-height: 700px;
+    background: url(../img/fondo2.png) no-repeat;
+}
+
+section#blog h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+section#blog article h3 {
+    margin: 20px 0px;
+}
+
+section#blog article a {
+    color: #2b4b80;
+}
+
+section#blog article a:before {
+    content: "";
+    width: 10%;
+    height: 3px;
+    display: inline-block;
+    background-color: #7b40c0;
+    margin: 5px 20px 5px 0px;
+}
+
+section#blog article p {
+    color: #ff70a5;
+    margin-top: 20px;
+}
+
+/* FIN BLOG */
+/* CONTACTAR */
+section#contactar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section#contactar div.row {
+    width: 80%;
+    min-height: 200px;
+    background: linear-gradient(135deg, rgba(255, 112, 164, 0.95) 0%, rgba(124, 64, 192, 0.95) 100%), url(../img/noticia3.jpg) no-repeat center center / cover;
+    border-radius: 10px;
+}
+
+section#contactar h2,
+section#contactar p {
+    color: #fff;
+}
+
+section#contactar p {
+    padding: 10px 0px 0px 85px;
+}
+
+section#contactar div.col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#contactar a {
+    background: #fff;
+    color: #7b40c0;
+}
+
+/* FIN CONTACTAR */
+/* FOOTER */
+footer#footer {
+    padding-top: 150px;
+    background: url(../img/asset\ 14.png);
+    position: relative;
+}
+
+footer#footer img {
+    margin-bottom: 20px;
+}
+
+footer#footer p,
+a {
+    color: #808a9b;
+}
+
+footer#footer a:hover {
+    text-decoration: none;
+    color: #7b40c0;
+}
+
+footer#footer div.rrss {
+    margin-top: 20px;
+}
+
+footer#footer div.rrss span {
+    background: rgb(243, 240, 240);
+    padding: 5px;
+    margin: 5px;
+}
+
+footer#footer div.footer-copyright {
+    color: #808a9b;
+}
+
+footer#footer span.icon-arrow-up {
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* FIN FOOTER */
+
+
+/* BOTONES */
+.btn {
+    background: #ff5c97;
+    color: white;
+    padding: 10px 40px;
+}
+
+/* ICONOS */
+span {
+    color: #ff5c97;
+    font-size: 60px;
+}
+
+
+
+/* MEDIA SCREEN */
+@media screen and (max-width:768px) {
+
+    /* TIPOGRAFIAS */
+    h1 {
+        color: #2b4b80;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    h2 {
+        color: #2b4b80;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    h3 {
+        color: #2b4b80;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    /* NAV */
+
+    .navbar {
+        background-color: #fff !important;
+    }
+
+    a.nav-item.nav-link {
+        width: 60px;
+    }
+
+
+    nav.navbar div#menu a {
+        color: #2b4b80 !important;
+        padding: 5px 10px;
+        margin: 30px 0px;
+    }
+
+    nav.navbar div#menu a:last-child {
+        background: #4043bc;
+        color: #fff !important;
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin-left: 0px;
+    }
+
+    .icon-hamburger-menu {
+        color: #ff5c97;
+        font-size: 30px;
+    }
+
+    /* FIN NAV */
+
+    /* BANNER */
+    section#banner {
+        margin-top: 150px;
+    }
+
+    section#banner div:first-child {
+        padding-left: 0px;
+    }
+
+    section#banner p {
+        padding: 20px 0px 20px 0px;
+    }
+
+    section#banner img.plus1 {
+        position: absolute;
+        left: 250px;
+        bottom: 320px;
+    }
+
+    /* FIN BANNER */
+
+    /* SERVICIOS */
+    section#servicios p {
+        padding: 0px 100px;
+    }
+
+    section#servicios {
+        margin-bottom: 150px;
+    }
+
+    /* FIN SERVICIOS */
+
+    /* ORDENADOR */
+    section#ordenador {
+        padding-left: 200px;
+    }
+
+    section#ordenador div:nth-child(2) img {
+        width: 100px;
+    }
+
+    section#ordenador div.row div:nth-child(2) {
+        padding-right: 0px;
+        margin: auto;
+    }
+
+    section#ordenador div:nth-child(2) p {
+        margin-top: 20px;
+    }
+
+    /* FIN ORDENADOR */
+
+
+    /* PLAN */
+    section#plan {
+        min-height: 700px;
+        background: #fff;
+    }
+
+    /* FIN PLAN */
+
+    /* PROYECTOS */
+    section#proyectos {
+        margin-top: 50px;
+    }
+
+    section#proyectos article {
+        margin-bottom: 50px;
+        padding: auto;
+
+    }
+
+    section#proyectos article img {
+        width: 400px;
+    }
+
+    section#proyectos div.row article div {
+        background: #fff;
+        padding: 10px 125px 20px 10px;
+        position: absolute;
+        left: 0;
+    }
+
+    /* FIN PROYECTOS */
+    /* CLIENTES */
+    section#clientes div.row div:first-child p {
+        padding: 20px 0px;
+    }
+
+    /* FIN CLIENTES */
+    /* BLOG */
+    section#blog {
+        margin-bottom: 150px;
+    }
+
+    section#blog article img {
+        width: 450px;
+    }
+
+    /* FIN BLOG */
+
+    /* CONTACTAR */
+
+    section#contactar div.col-md-6 {
+        display: inline;
+        margin-left: 20px;
+    }
+
+    section#contactar h2 {
+        margin-top: 20px;
+    }
+
+    section#contactar p {
+        padding: 0px;
+    }
+
+    /* FIN CONTACTAR */
+}
